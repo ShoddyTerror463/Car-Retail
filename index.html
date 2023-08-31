@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Car Retail Company</title>
+    <script src="https://kit.fontawesome.com/709d1e85f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+        
+
+        <h1 data-translate="headline">Welcome to Car Retail Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Inventory</button>
+                        <div class="dropdown-content">
+                          <a href="#">Subaru</a>
+                          <a href="#">Jaguar</a>
+                          <a href="#">Kia</a>
+                        </div>
+                      </div>
+                </li>
+
+                <li><a href="#">Contact Us</a></li>
+
+                <li>
+                    <div class="basket">
+                        <h2>Your Basket</h2>
+                        <p>Total: <span id="total">$0</span></p>
+                    
+                       <div> <a style="background-color: red; margin: 10px; padding: 2px; border-radius: 10px;" href="purchase.html">purchase</a></div>
+                    </div>
+                    
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inventory">
+
+            <h2>Our Inventory</h2>
+
+            <div class="car-card">
+                <img class="car" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Car 1">
+                <h3>Car Model 1</h3>
+                <p>Price: $30,000</p>               
+                <button data-price="30000" class="buy-button">Buy Now</button>
+            </div>
+
+            <div class="car-card">
+                <img class="car" src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Car 2">
+                <h3>Car Model 2</h3>
+                <p>Price: $25,000</p>
+                <button data-price="25000" class="buy-button">Buy Now</button>
+            </div>
+
+            <div class="car-card">
+                <img class="car" src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Car 1">
+                <h3>Car Model 3</h3>
+                <p>Price: $78,000</p>               
+                <button data-price="78000" class="buy-button">Buy Now</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Car Retail Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
